@@ -44,10 +44,6 @@ class twoPlayer:
                 if self.continue_game:
                     self.handleMouseDown(event)
                 self.handleClickButton(event)
-                    
-            '''elif event.type == pygame.MOUSEBUTTONDOWN:
-                if self.pause.handleMouseDown(event.pos):
-                    self.continue_game = True'''
 
     def handleClickButton(self,event):
         # check if choose pause or new game 
