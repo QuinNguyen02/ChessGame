@@ -139,7 +139,6 @@ class chessEngine:
     def evaluateSecondStage(self,key):
         #Second stage -- red moves
         worse = False
-        #print('key is',key)
         recentScore = key
         for piece, moves in self.availMove.items():
             for move in moves: #move = instruction obj
@@ -147,10 +146,7 @@ class chessEngine:
                 chosen = True
                 if self.board.getTiles()[move.getPos()] != None:
                     defeatedPiece = self.board.getTiles()[move.getPos()]
-                    defeatedValue = defeatedPiece.getScore()
-                    #print('df pos',move.getPos())
-                    #print('defeated',defeatedPiece,defeatedValue)
-                    
+                    defeatedValue = defeatedPiece.getScore()                  
                     moveObj = Move(piece,defeatedPiece,piece.getPos(),move.getPos())
                     if self.checkThirdStage(moveObj):
                         chosen = False
@@ -181,7 +177,6 @@ class chessEngine:
     
     def update(self,movement):
         #movement is Move obj
-        #movement = smallest.getValue()
         chosenMove = movement.getNewPos()
         chosenPiece = movement.getChosenPiece()
         #update movement
@@ -195,7 +190,6 @@ class chessEngine:
     
     def redoUpdate(self,movement):
         #movement is Move obj
-        #movement = smallest.getValue()
         chosenMove = movement.getNewPos()
         chosenPiece = movement.getChosenPiece()
         defeatedPiece = movement.getDefeatedPiece()
