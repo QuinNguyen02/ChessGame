@@ -1,4 +1,4 @@
-# Chineese Chessgame
+# Chineese Chess Game
 
 # The story behind this game 📚
 This game was developed during the summer of 2022 while I was spending time in Vietnam with my family. Our big family has a tradition of playing chess whenever we gather for dinner on weekends. Typically, the grandchildren take turns playing with each other as well as with the adults. However, I found it inconvenient to carry such a large chessboard around when visiting my uncle's house. Thus, this online version was created. The background music is also my grandfather's favorite song.
