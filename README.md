@@ -12,8 +12,8 @@ This game was developed during the summer of 2022 while I was spending time in V
 2. **Difficulty Level**: Implement three different difficulty levels—Easy, Medium, and Hard—in the one-player mode, possibly by adjusting the depth of the search tree by setting bounds.
 
 # Demo Video 🎥
-For one player: https://drive.google.com/file/d/1d7jyFBSz4o8uecEOs1zwd5WYfIck0Bg3/view?usp=sharing
-For two player: https://drive.google.com/file/d/1OiaLpuAe-h3G8JPsLQkbwcKo_Qa4dVx_/view?usp=sharing
+1. For one player: https://drive.google.com/file/d/1d7jyFBSz4o8uecEOs1zwd5WYfIck0Bg3/view?usp=sharing
+2. For two player: https://drive.google.com/file/d/1OiaLpuAe-h3G8JPsLQkbwcKo_Qa4dVx_/view?usp=sharing
 
 <div align="center">
     <img src="https://github.com/QuinNguyen02/ChessGame/blob/main/mainPhoto.png" 
