@@ -4,8 +4,8 @@
 This game was developed during the summer of 2022 while I was spending time in Vietnam with my family. Our big family has a tradition of playing chess whenever we gather for dinner on weekends. Typically, the grandchildren take turns playing with each other as well as with the adults. However, I found it inconvenient to carry such a large chessboard around when visiting my uncle's house. Thus, this online version was created. The background music is also my grandfather's favorite song.
 
 # General Implementation 🛠️
-**One-Player Mode**: The computer opponent is implemented using the minimax algorithm, which enables it to make the best possible moves by considering subsequent results.
-**Scoring Scale**: To emphasize the importance of the King, its score is set significantly higher than that of other pieces, penalizing its loss more heavily.
+1. **One-Player Mode**: The computer opponent is implemented using the minimax algorithm, which enables it to make the best possible moves by considering subsequent results.
+2. **Scoring System**: To emphasize the importance of the King, its score is set significantly higher than that of other pieces, penalizing its loss more heavily.
 
 # Room for Improvement 📈
 1. **One-Player Mode**:  I could improve the one-player mode by incorporating alpha-beta pruning into the minimax algorithm to eliminate unnecessary expansions in future steps.
@@ -16,6 +16,6 @@ For one player: https://drive.google.com/file/d/1d7jyFBSz4o8uecEOs1zwd5WYfIck0Bg
 For two player: https://drive.google.com/file/d/1OiaLpuAe-h3G8JPsLQkbwcKo_Qa4dVx_/view?usp=sharing
 
 <div align="center">
-    <img src="https://github.com/QuinNguyen02/ChessGame/mainPhot.png" 
-    alt="Demo Photo" width="240" height="180" border="10" />
+    <img src="https://github.com/QuinNguyen02/ChessGame/blob/main/mainPhoto.png" 
+    alt="Demo Photo" width="250" height="300" border="10" />
 </div>
